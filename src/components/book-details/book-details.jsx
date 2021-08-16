@@ -9,6 +9,7 @@ import notAvailableImg from "../../images/not-available.png";
 
 function BookDetails({ bookId, books }) {
   useEffect(() => {
+    window.scrollTo(0, 0);
     window.onunload = function () {
       window.scrollTo(0, 0);
     };
