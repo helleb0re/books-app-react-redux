@@ -1,0 +1,97 @@
+@keyframes ldio-ts120q6przb-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes ldio-ts120q6przb-2 {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(225deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.ldio-ts120q6przb > div:nth-child(2) {
+  transform: translate(-15px, 0);
+}
+.ldio-ts120q6przb > div:nth-child(2) div {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 180px;
+  height: 90px;
+  border-radius: 180px 180px 0 0;
+  background: #c8472c;
+  animation: ldio-ts120q6przb-1 1s linear infinite;
+  transform-origin: 90px 90px;
+}
+.ldio-ts120q6przb > div:nth-child(2) div:nth-child(2) {
+  animation: ldio-ts120q6przb-2 1s linear infinite;
+}
+.ldio-ts120q6przb > div:nth-child(2) div:nth-child(3) {
+  transform: rotate(-90deg);
+  animation: none;
+}
+@keyframes ldio-ts120q6przb-3 {
+  0% {
+    transform: translate(285px, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(105px, 0);
+    opacity: 1;
+  }
+}
+.ldio-ts120q6przb > div:nth-child(1) {
+  display: block;
+}
+.ldio-ts120q6przb > div:nth-child(1) div {
+  position: absolute;
+  top: 138px;
+  left: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #412a1e;
+  animation: ldio-ts120q6przb-3 1s linear infinite;
+}
+.ldio-ts120q6przb > div:nth-child(1) div:nth-child(1) {
+  animation-delay: -0.67s;
+}
+.ldio-ts120q6przb > div:nth-child(1) div:nth-child(2) {
+  animation-delay: -0.33s;
+}
+.ldio-ts120q6przb > div:nth-child(1) div:nth-child(3) {
+  animation-delay: 0s;
+}
+.loadingio-spinner-bean-eater-m5q42wquil {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  display: block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-ts120q6przb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-ts120q6przb div {
+  box-sizing: content-box;
+}

@@ -1,0 +1,30 @@
+.undiscovered-page__container {
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.undiscovered-page__picture {
+  width: 250px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .undiscovered-page__picture {
+    width: 200px;
+  }
+
+  .undiscovered-page__container {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .undiscovered-page__picture {
+    width: 150px;
+  }
+
+  .undiscovered-page__container {
+    font-size: 20px;
+  }
+}

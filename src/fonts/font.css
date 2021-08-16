@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Source Code Pro";
+  src: local("Source Code Pro"), local("SourceCodePro-Regular"),
+    url("Sourcecodepro.woff2") format("woff2"),
+    url("Sourcecodepro.woff") format("woff"),
+    url("Sourcecodepro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Code Pro";
+  src: local("Source Code Pro Bold"), local("SourceCodePro-Bold"),
+    url("Sourcecodeprobold.woff2") format("woff2"),
+    url("Sourcecodeprobold.woff") format("woff"),
+    url("Sourcecodeprobold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

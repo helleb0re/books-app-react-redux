@@ -1,0 +1,22 @@
+.greetings-page__message {
+  font-size: 30px;
+  line-height: 1.15;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .greetings-page__message {
+    font-size: 22px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greetings-page__message {
+    font-size: 16px;
+    width: 95%;
+  }
+}
